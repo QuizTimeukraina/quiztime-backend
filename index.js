@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import connectDB from "./server/db.js";
+import { connectDB } from "./server/db.js";
 
 import userRoutes from "./server/routes/users.js";
 import gameRoutes from "./server/routes/game.js";
