@@ -1,0 +1,29 @@
+{
+  "name": "quiztime-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuizTimeukraina/quiztime-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuizTimeukraina/quiztime-backend/issues"
+  },
+  "homepage": "https://github.com/QuizTimeukraina/quiztime-backend#readme",
+  "description": "Backend for QuizTime game",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.2",
+    "stripe": "^18.2.1"
+  }
+}
